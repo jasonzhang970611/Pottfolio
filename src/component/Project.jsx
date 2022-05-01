@@ -10,7 +10,7 @@ function Project(props){
             <h2>{props.name}</h2>
             <img className="projectImg" src={props.img} alt="project_img"/>
             <p>{props.about}</p>
-            <button onClick={handleClick}>Github</button>
+            <button class="btn" onClick={handleClick}>Github</button>
         </div>
     );
 }

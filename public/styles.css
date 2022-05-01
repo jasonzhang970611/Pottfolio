@@ -62,6 +62,8 @@ header {
   margin: 50px 0;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #E4F9F5;
+  
 }
 .projectImg{
   height: 100%;
@@ -76,8 +78,10 @@ header {
    
 }
 .contactInfo{
+  font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding:5px 5px;
+    font-size: 15px;
 }
 
 .socialMedia{
@@ -92,23 +96,47 @@ header {
     padding:10px 10px;
     text-align: center;
     text-decoration: none;
+    margin:5px 5px 5px 5px;
 }
 .fb{
-    color:blue
+    color:blue;
+    cursor: pointer;
 }
 
 .github{
-    color:black
+    color:black;
+    cursor: pointer;
 }
 
 .linkin{
-    color:rgb(51, 51, 240)
+    color:rgb(51, 51, 240);
+    cursor: pointer;
 }
-
+.resume{
+  cursor: pointer;
+}
 footer {
     position: relative;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
     color:#ccc;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
 }
